@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work in Progress</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🚧 Oops! I am still building something awesome... Probably?🚧</h1>
+        <p>But don't worry, you're not lost. You're in the <strong>Fun Zone!</strong></p>
+
+        <div class="image-box">
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXpucDZsM2txd2gydDc1bmlqaGRseTBxMTE1dTh6Zmt0ZmhlMHdudiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tHIRLHtNwxpjIFqPdV/giphy.gif" alt="Funny Construction GIF">
+        </div>
+
+        <p>I am hammering away at some code, pouring coffee, and probably breaking things along the way.</p>
+
+        <p class="quote">"Rome wasn't built in a day... but it was built by guyd who enjoyed funny gifs!"</p>
+
+        <button class="cta-btn" onclick="showPopup()">Get Me Out of Here!</button>
+    </div>
+
+    <!-- Pop-up Modal -->
+    <div id="popup" class="popup" onclick="closePopup(event)">
+        <div class="popup-content" onclick="event.stopPropagation()">
+            <span class="popup-close" onclick="closePopup(event)">×</span>
+            <p class="popup-text">😋🤣 That does not work either, you are here locked with me! 😋🤣</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
